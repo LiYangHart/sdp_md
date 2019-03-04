@@ -24,7 +24,7 @@ The SDP architecture is composed of and relies on five separate security layers 
 After combining these security layers and protocols, it becomes extremely difficult for malicious users and attackers to access protected applications and services.
 
 ## SDP Components
-The SDP framework’s architecture consists of three main components [[SDP]](https://downloads.cloudsecurityalliance.org/initiatives/sdp/Software_Defined_Perimeter.pdf) [[USDP]](https://digital-library.theiet.org/content/books/10.1049/pbse007e_ch7):
+The SDP framework’s architecture consists of three main components [[SDP]](https://downloads.cloudsecurityalliance.org/initiatives/sdp/Software_Defined_Perimeter.pdf) [[Understanding SDP]](https://digital-library.theiet.org/content/books/10.1049/pbse007e_ch7):
 
 a)	Controller: The SDP controller is the central element in the SDP framework. It is responsible for records of authorized hosts and services and passing on this information to the gateway. This includes issuing certificates and authenticating devices (both initiating and accepting hosts). It use a database to keep those information. The database consists of a variety of tables, mainly including “sdpid” to contain the informations of the components of SDP, “service” to provide the services that will be protected by SDP, “service gateway” to define the gateways for protecting a service and “sdpid service” to show the mapping of service IDs, and the port and protocol numbers of services. 
 
