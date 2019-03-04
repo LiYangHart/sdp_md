@@ -11,7 +11,7 @@ Software defined perimeter [SDP](https://sdn.ieee.org/newsletter/march-2017/soft
 Conventional security models operate on the outdated assumption that everything on the inside of an organization’s network can be trusted, but given increased attack sophistication and insider threats, new security measures needed to be taken to stop them from spreading once inside. Introducing the concept of [Zero Trust](https://www.paloaltonetworks.com/cyberpedia/what-is-a-zero-trust-architecture) a new movment that introduced SDP as one of the solutions.
 
 ### Overcoming VPN shortcomings
-
+![alt text](https://github.com/LiYangHart/SDP_images/blob/master/WhySDP-01.png.pagespeed.ce.iEcF-GmSgR.png) 
 Enterprises have long relied on virtual private networks (VPNs) to connect mobile or remote users to applications and other network resources. But, traditional VPNs are poorly suited for the shift to IaaS and SaaS. They rely on appliances, such as firewalls or VPN concentrators, binding mobile users to specific locations. Such an architecture adds latency and creates a chokepoint for cloud access. And, to even reach the VPN gateways, users must rely on the unpredictable Internet. Once connected through a VPN, users are trusted with access to all resources on the network, increasing the risk of malware propagation and data breach. Overall, legacy VPN architectures expose enterprise to attacks and adversely impact the user experience, especially when accessing cloud applications.
 
 
