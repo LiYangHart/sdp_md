@@ -40,3 +40,5 @@ Markdown | Less | Pretty
 --- | --- | ---
 *Still* | `renders` | **nicely**
 1 | 2 | 3
+
+![alt text](https://github.com/LiYangHart/SDP_images/blob/master/components.jpg "components")
