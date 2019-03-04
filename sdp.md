@@ -50,6 +50,7 @@ Most of the times, there would be no traffic can get through. Sometimes there wo
 | Connection Setup Time (s)| 0.09 | 0.09 | 1.02 |
 | Network Throughput| 14.2 Kbps | 12.8 Kbps | 7.6 Kbps |
 | Complete requests percentage |100% | 95%  | 5% |
+
 Almost all the requests can be completed, and traffic speed is close to the normal speed. Therefore, the impact of SYN flood attack to SDP platform is very limited.
 
 (2)	Port scanning attack
