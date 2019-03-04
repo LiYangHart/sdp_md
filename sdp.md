@@ -1,4 +1,4 @@
-Potential Applications and Users
+## Potential Applications and Users
 Since the SDP architecture can be implemented in client-to- gateway, client-to-server, server-to-server, and client-to-server-to- client, so it can be used for numerous applications. It would become popular in enterprises to protect the Internal Enterprises Networks. 
 	Virtual private networks (VPN) have provided secure access to virtual local area networks for remote users. However, it is out-of-date since it was designed for the 1990s networks and lack of agility. 
 On the contrary, an SDP framework allows organizations and enterprises to keep cloud resources dark to unauthorized users. This helps protect against a variety of attacks including network flood attacks, brute-force attacks, and TLS vulnerabilities. Hence, by having a “dark net” around the servers, an SDP framework can facilitate the management and security of organizations’ cloud resources. Therefore, SDP can provide an ideal VPN solution for any size organization as it provides cloud-based controllers, gateways, and up-to-date software defined security perimeters to deliver secure, dynamic virtual connectivity. 
