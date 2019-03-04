@@ -1,14 +1,15 @@
 ## Potential Applications and Users
-Since the SDP architecture can be implemented in client-to- gateway, client-to-server, server-to-server, and client-to-server-to- client, so it can be used for numerous applications. It would become popular in enterprises to protect the Internal Enterprises Networks. 
+Since the [SDP architecture][1] can be implemented in client-to- gateway, client-to-server, server-to-server, and client-to-server-to-client , so it can be used for numerous applications. It would become popular in enterprises to protect the Internal Enterprises Networks. 
 
-Virtual private networks (VPN) have provided secure access to virtual local area networks for remote users. However, it is out-of-date since it was designed for the 1990s networks and lack of agility. 
+[Virtual private networks (VPN)](https://en.wikipedia.org/wiki/Virtual_private_network) have provided secure access to virtual local area networks for remote users. However, it is out-of-date since it was designed for the 1990s networks and lack of agility. 
 
 On the contrary, an SDP framework allows organizations and enterprises to keep cloud resources dark to unauthorized users. This helps protect against a variety of attacks including network flood attacks, brute-force attacks, and TLS vulnerabilities. Hence, by having a “dark net” around the servers, an SDP framework can facilitate the management and security of organizations’ cloud resources. Therefore, SDP can provide an ideal VPN solution for any size organization as it provides cloud-based controllers, gateways, and up-to-date software defined security perimeters to deliver secure, dynamic virtual connectivity. 
 Therefore, SDP is an alternative to VPN for internal enterprise networks and more and more applications show that it shows better performance than VPN.
 
+[1]: https://downloads.cloudsecurityalliance.org/initiatives/sdp/SDP_Specification_1.0.pdf
 
 ## SDP Architecture
-The SDP architecture is composed of and relies on five separate security layers: [U]
+The SDP architecture is composed of and relies on five separate security layers [[SDP]](https://downloads.cloudsecurityalliance.org/initiatives/sdp/Software_Defined_Perimeter.pdf) [[Understanding SDP]](https://digital-library.theiet.org/content/books/10.1049/pbse007e_ch7): 
 
 1)	Single Packet Authentication (SPA): SPA is the basic of device authentication. The SDP uses the SPA to reject traffic to it from unauthorized devices. The first packet is cryptographically sent from the client’s device to the SDP controller where the device’s authorization is verified before giving it access. The SPA is then again sent by the device to the gateway to help it determine the authorized device’s traffic and reject all other traffic.
 
@@ -23,7 +24,7 @@ The SDP architecture is composed of and relies on five separate security layers:
 After combining these security layers and protocols, it becomes extremely difficult for malicious users and attackers to access protected applications and services.
 
 ## SDP Components
-The SDP framework’s architecture consists of three main components [U]:
+The SDP framework’s architecture consists of three main components [[SDP]](https://downloads.cloudsecurityalliance.org/initiatives/sdp/Software_Defined_Perimeter.pdf) [[USDP]](https://digital-library.theiet.org/content/books/10.1049/pbse007e_ch7):
 
 a)	Controller: The SDP controller is the central element in the SDP framework. It is responsible for records of authorized hosts and services and passing on this information to the gateway. This includes issuing certificates and authenticating devices (both initiating and accepting hosts). It use a database to keep those information. The database consists of a variety of tables, mainly including “sdpid” to contain the informations of the components of SDP, “service” to provide the services that will be protected by SDP, “service gateway” to define the gateways for protecting a service and “sdpid service” to show the mapping of service IDs, and the port and protocol numbers of services. 
 
@@ -33,7 +34,7 @@ c)	Gateway/Accepting Hosts (AH): After the SDP controller provides the gateway w
 
  
 ## SDP Working Procedure
-The whole process of SDP consists of the following steps: [17420] 
+The whole process of SDP consists of the following steps: [[Build SDP]](http://ir.lib.uth.gr/bitstream/handle/11615/48775/17420.pdf?sequence=2&isAllowed=y)
 1)	The gateway initiates a TLS connection to the controller, and the controller verifies the gateway by using a certificate.
 
 2)	A connection between the controller and the gateway is establishes and the controller send all the information about IHs and AHs to the gateway as authorized users and services.
@@ -54,7 +55,7 @@ The whole process of SDP consists of the following steps: [17420]
 ## SDP Simulation
 If you want to simulate SDP on your own devices, [Waverly Labs’ OpenSDP project](https://www.waverleylabs.com/open-source-sdp/) is a good open-source resource to implement the proposed framework with components being programmed using C, Python, and NodeJS.
 
-As mentioned earlier SDP consists of 3 main components: controller, gateway and client. Each component can be set up on a separate virtual machine. The code can be found in WaverleyLabs’ Github, [WaverleyLabs/SDPcontroller](https://github.com/WaverleyLabs/SDPcontroller) can be used to simulate the controller, while “WaverleyLabs/fwknop”(https://github.com/WaverleyLabs/fwknop) can be used to simulate gateway and client. 
+As mentioned earlier SDP consists of 3 main components: controller, gateway and client. Each component can be set up on a separate virtual machine by using [Oracle Virtualbox](https://www.virtualbox.org/). The code can be found in WaverleyLabs’ Github, [WaverleyLabs/SDPcontroller](https://github.com/WaverleyLabs/SDPcontroller) can be used to simulate the controller, while “WaverleyLabs/fwknop”(https://github.com/WaverleyLabs/fwknop) can be used to simulate gateway and client. 
 
 In addition, another virtual machine can be set up as an unauthorized client or attacker. Several attacks can be simulated to test the utility of SDP. For example, [Hping3](http://www.hping.org/download.php) is a popular tool to simulate the DoS (Denial of Service) attacks, such as SYN flood attack. For port scanning attacks, [Nmap](https://nmap.org/download.html) is mainly used for network discovery and security auditing. Besides, the network traffic can be monitored by [Wireshark](https://www.wireshark.org/download.html) to check the network condition of using SDP or without SDP.
 For testing SDP, here we mainly simulate two types of cyber-attacks: DoS and port scanning, and the network throughput is our main metric. 
