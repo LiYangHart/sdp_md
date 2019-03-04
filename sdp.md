@@ -84,7 +84,7 @@ When using SDP, almost all the requests can be completed, and traffic speed is c
 
 The results can be also seen in the table.
 
-| | Normal |SYN flood with SDP |SYN flood without SDP |
+|Type | Normal |SYN flood with SDP |SYN flood without SDP |
 |-------------|-------------|-------------|-------------|
 | Connection Setup Time (s)| 0.09 | 0.09 | 1.02 |
 | Network Throughput| 14.2 Kbps | 12.8 Kbps | 7.6 Kbps |
