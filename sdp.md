@@ -44,22 +44,22 @@ SDP as a service (also known as cloud-based SDP) delivers secure mobile access a
 
 3. _Connection hijacking_
 -	Man in the middle 
--	Certificate forgery 
--	DNS poisoning
+-	[Certificate forgery] (https://www.networkworld.com/article/2226498/infrastructure-management-simply-put-how-does-certificate-based-authentication-work.html)
+-	[DNS poisoning] (https://www.howtogeek.com/161808/htg-explains-what-is-dns-cache-poisoning/)
 
 ### Security tools adopted by SDP core 
-1. _Server exploitation_
--	Server isolatioon
--	SPA
+1. _Server exploitations_
+-	[Server isolation] (https://www.interfacett.com/blogs/understanding-isolation-levels-sql-server-2008-r2-2012-examples/)
+-	[SPA] (https://msdn.microsoft.com/en-us/magazine/dn463786.aspx?f=255&MSPPError=-2147217396)
 -	Dynamic FW
 2. _Credential theft_
--	Transparent MFA 
--	mTLS 
+-	[Transparent MFA] (https://en.wikipedia.org/wiki/Multi-factor_authentication)
+-	[mTLS] (https://medium.com/@technospace/mutual-tls-for-oauth-client-authentication-cdd595d4dcac)
 -	Fingerprint
 3. _Connection hijacking_
 -	Encryption
 -	Pinned Certificates
--	NO DNS
+-	Assigned or controlled IP (no DNS)
 
 
 
