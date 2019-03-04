@@ -68,9 +68,11 @@ SDP as a service (also known as cloud-based SDP) delivers secure mobile access a
 
 
  
-Security importance
-[17420] Nowadays, more than ever, business and the society as a whole are linked to computer technology in multiple ways, and are therefore also strongly affected by its malfunctions and security breaches. Poor security practices may cost firms huge amounts of money. They can also have a severe impact on human activities or even human lives.
-[U] According to SafeNet 2014 Survey, although 74% of IT decision-makers trust their organization’s perimeter security, yet about half (44%) of them admitted that their perimeter has been breached or did not know if it had been breached. With cyber-attacks on the rise, the cost of IT security is becoming an increasingly heavy burden for every organization. According to the latest Gartner report, the worldwide spending on information security was $75.4 billion in 2015, which will jump to $101 billion in 2018 and soar to $170 billion by 2020.
+## Security importance
+Nowadays, more than ever, business and the society as a whole are linked to computer technology in multiple ways, and are therefore also strongly affected by its malfunctions and security breaches. Poor security practices may cost firms huge amounts of money. They can also have a severe impact on human activities or even human lives.
+
+According to SafeNet 2014 Survey, although 74% of IT decision-makers trust their organization’s perimeter security, yet about half (44%) of them admitted that their perimeter has been breached or did not know if it had been breached. With cyber-attacks on the rise, the cost of IT security is becoming an increasingly heavy burden for every organization. According to the latest Gartner report, the worldwide spending on information security was $75.4 billion in 2015, which will jump to $101 billion in 2018 and soar to $170 billion by 2020.
+
 Generally, networks are vulnerable to many regular networking threats. These attacks may extend from the local networks to other connected networks, for example financial networks may extend to personal home networks. The attackers manage to get access to devices interconnected with our daily physical activities: web cameras, security locks, university appliances - in other words, Internet of Things (IoT) devices. 17420The attackers collects important information from various ways such as the open ports, message types and applications running. Each device or service in the network is a potential entry point for cyber attackers.  All these reasons call for a strong protection system that can repel possible attacks that pose threats to networks.
 
 
