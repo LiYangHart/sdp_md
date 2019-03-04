@@ -1,3 +1,110 @@
+![alt text](https://github.com/LiYangHart/SDP_images/blob/master/Software-Defined-Perimeter-Market.png) 
+## What is SDP?
+Software defined perimeter [SDP](https://sdn.ieee.org/newsletter/march-2017/software-defined-perimeters-an-architectural-view-of-sdp) is a new approach for securing access to business applications. emerging along side other virtualization networking technichues such as SDN and NFV. It’s become particularly important as mobile users access cloud-based applications.
+
+## Motivation  
+
+
+### Precursors
+![alt text](https://github.com/LiYangHart/SDP_images/blob/master/ZeroTrust%20arch.jpg) 
+
+Conventional security models operate on the outdated assumption that everything on the inside of an organization’s network can be trusted, but given increased attack sophistication and insider threats, new security measures needed to be taken to stop them from spreading once inside. Introducing the concept of [Zero Trust](https://www.paloaltonetworks.com/cyberpedia/what-is-a-zero-trust-architecture) a new movment that introduced SDP as one of the solutions.
+
+### Overcoming VPN shortcomings
+
+Enterprises have long relied on virtual private networks (VPNs) to connect mobile or remote users to applications and other network resources. But, traditional VPNs are poorly suited for the shift to IaaS and SaaS. They rely on appliances, such as firewalls or VPN concentrators, binding mobile users to specific locations. Such an architecture adds latency and creates a chokepoint for cloud access. And, to even reach the VPN gateways, users must rely on the unpredictable Internet. Once connected through a VPN, users are trusted with access to all resources on the network, increasing the risk of malware propagation and data breach. Overall, legacy VPN architectures expose enterprise to attacks and adversely impact the user experience, especially when accessing cloud applications.
+
+
+
+
+
+## Advantages of SDP
+SDP reduces risk by restricting network access to authorized resources. Most SDP point-solutions fail to address mobile performance problems, especially for global access. They also fail to continuously inspect traffic to application resources for threats post authentication. And they introduce management and deployment complexity, requiring additional server software, network appliances, or cloud services.
+SDP as a service (also known as cloud-based SDP) delivers secure mobile access as integral part of a company’s global network. Performance improves with direct, optimized access across a managed, cloud-based SD-WAN. Risk is minimized before and after users access the network through strong authentication and continuous traffic inspection. SDP as a service makes mobile access easy — easy to deploy, easy to use, and easy to secure.
+### Types of attacks SDP protects against 
+<img src="https://github.com/LiYangHart/SDP_images/blob/master/insta002.gif" width="500" height="400" />
+
+1. _Server exploitation_
+-	server misconfigurations
+-	server vulnerabilities 
+-	injection
+-	denial of service
+<img src="https://github.com/LiYangHart/SDP_images/blob/master/insta1.gif" width="500" height="400" />
+
+
+2. _Credential theft_
+-	phishing 
+-	key loggers
+-	brute force
+
+<img src="https://github.com/LiYangHart/SDP_images/blob/master/insta.gif" width="500" height="400" />
+
+3. _connection hijacking_
+-	man in the middle 
+-	cerrtificate forgery 
+-	dns poisoning
+
+### Security tools adopted by SDP core 
+1. _Server exploitation_
+-	server isolatioon
+-	SPA
+-	Dynamic FW
+2. _Credential theft_
+-	Transparent MFA 
+-	mTLS 
+-	fingerprint
+3. _Connection hijacking_
+-	Encryption
+-	Pinned Certificates
+-	NO DNS
+
+
+
+
+
+
+
+ 
+Security importance
+[17420] Nowadays, more than ever, business and the society as a whole are linked to computer technology in multiple ways, and are therefore also strongly affected by its malfunctions and security breaches. Poor security practices may cost firms huge amounts of money. They can also have a severe impact on human activities or even human lives.
+[U] According to SafeNet 2014 Survey, although 74% of IT decision-makers trust their organization’s perimeter security, yet about half (44%) of them admitted that their perimeter has been breached or did not know if it had been breached. With cyber-attacks on the rise, the cost of IT security is becoming an increasingly heavy burden for every organization. According to the latest Gartner report, the worldwide spending on information security was $75.4 billion in 2015, which will jump to $101 billion in 2018 and soar to $170 billion by 2020.
+Generally, networks are vulnerable to many regular networking threats. These attacks may extend from the local networks to other connected networks, for example financial networks may extend to personal home networks. The attackers manage to get access to devices interconnected with our daily physical activities: web cameras, security locks, university appliances - in other words, Internet of Things (IoT) devices. 17420The attackers collects important information from various ways such as the open ports, message types and applications running. Each device or service in the network is a potential entry point for cyber attackers.  All these reasons call for a strong protection system that can repel possible attacks that pose threats to networks.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Potential Applications and Users
 Since the [SDP architecture][1] can be implemented in client-to- gateway, client-to-server, server-to-server, and client-to-server-to-client , so it can be used for numerous applications. It would become popular in enterprises to protect the Internal Enterprises Networks. 
 
