@@ -21,38 +21,41 @@ Enterprises have long relied on virtual private networks (VPNs) to connect mobil
 ## Advantages of SDP
 SDP reduces risk by restricting network access to authorized resources. Most SDP point-solutions fail to address mobile performance problems, especially for global access. They also fail to continuously inspect traffic to application resources for threats post authentication. And they introduce management and deployment complexity, requiring additional server software, network appliances, or cloud services.
 SDP as a service (also known as cloud-based SDP) delivers secure mobile access as integral part of a company’s global network. Performance improves with direct, optimized access across a managed, cloud-based SD-WAN. Risk is minimized before and after users access the network through strong authentication and continuous traffic inspection. SDP as a service makes mobile access easy — easy to deploy, easy to use, and easy to secure.
+
+
+
 ### Types of attacks SDP protects against 
 <img src="https://github.com/LiYangHart/SDP_images/blob/master/insta002.gif" width="500" height="400" />
 
 1. _Server exploitation_
--	server misconfigurations
--	server vulnerabilities 
--	injection
--	denial of service
+-	Server misconfigurations
+-	Server vulnerabilities 
+-	Injection
+-	Denial of service
 <img src="https://github.com/LiYangHart/SDP_images/blob/master/insta1.gif" width="500" height="400" />
 
 
 2. _Credential theft_
--	phishing 
--	key loggers
--	brute force
+-	Phishing 
+-	Key loggers
+-	Brute force
 
 <img src="https://github.com/LiYangHart/SDP_images/blob/master/insta.gif" width="500" height="400" />
 
-3. _connection hijacking_
--	man in the middle 
--	cerrtificate forgery 
--	dns poisoning
+3. _Connection hijacking_
+-	Man in the middle 
+-	Certificate forgery 
+-	DNS poisoning
 
 ### Security tools adopted by SDP core 
 1. _Server exploitation_
--	server isolatioon
+-	Server isolatioon
 -	SPA
 -	Dynamic FW
 2. _Credential theft_
 -	Transparent MFA 
 -	mTLS 
--	fingerprint
+-	Fingerprint
 3. _Connection hijacking_
 -	Encryption
 -	Pinned Certificates
